@@ -5,7 +5,7 @@ This web application displays a vehicle moving on a map in real-time using the L
 
 ## Demo
 
-You can view the live demo of the project [Live](`https://fronend-vehicale-movement-app.vercel.app/`).
+You can view the live demo of the project(deployed on vercel) [Live](https://fronend-vehicale-movement-app.vercel.app/).
 
 ## Features
 
