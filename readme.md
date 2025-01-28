@@ -19,7 +19,7 @@ You can view the live demo of the project(deployed on vercel) [Live](https://fro
 - **Frontend:** React, Leaflet (for mapping), Axios (for making API requests)
 - **Backend:** Node.js, Express (for API creation)
 - **Mapping Library:** Leaflet (alternative to Google Maps)
-- **Deployment:** Vercel/Netlify/Render (if deployed)
+- **Deployment:** Vercel(Fronend),Render(Backend)
 
 ## Installation
 
@@ -28,7 +28,7 @@ Follow the steps below to set up the project locally.
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/vehicle-movement-map.git
+git clone https://github.com/VinodHadmode/vehicle-movement-map.git
 ```
 
 ### 2. Navigate to the project directory:
