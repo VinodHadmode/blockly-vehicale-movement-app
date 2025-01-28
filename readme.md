@@ -5,7 +5,7 @@ This web application displays a vehicle moving on a map in real-time using the L
 
 ## Demo
 
-You can view the live demo of the project [here](#).
+You can view the live demo of the project [Live](`https://fronend-vehicale-movement-app.vercel.app/`).
 
 ## Features
 
@@ -61,8 +61,8 @@ npm install
 npm start
 ```
 
-The API will be available at `http://localhost:5000/api/vehicle`.
-Deployed backend `https://backend-vehicale-movement-app.onrender.com`
+The API will be available at : `http://localhost:5000/api/vehicle`.
+Deployed backend on Render : `https://backend-vehicale-movement-app.onrender.com`
 
 ## API Endpoints
 
