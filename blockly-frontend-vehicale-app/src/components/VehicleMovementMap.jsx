@@ -4,6 +4,8 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import CarIcon from "../assets/bluecar.png"
 
+const baseUrl=`https://backend-vehicale-movement-app.onrender.com`
+
 const VehicleMovementMap = () => {
   const initialPosition = [17.385044, 78.486671];
   const [vehiclePosition, setVehiclePosition] = useState(initialPosition);
@@ -14,7 +16,7 @@ const VehicleMovementMap = () => {
     // Fetch vehicle data from the backend
     const fetchVehicleData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/vehicle');  // Replace with your backend API endpoint
+        const response = await fetch(`${baseUrl}/api/vehicle`);  // Replace with your backend API endpoint
         const data = await response.json();
         setVehicleData(data);
       } catch (error) {

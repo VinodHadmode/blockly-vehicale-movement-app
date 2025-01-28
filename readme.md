@@ -62,6 +62,7 @@ npm start
 ```
 
 The API will be available at `http://localhost:5000/api/vehicle`.
+Deployed backend `https://backend-vehicale-movement-app.onrender.com`
 
 ## API Endpoints
 
