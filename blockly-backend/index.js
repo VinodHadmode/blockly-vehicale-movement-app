@@ -14,6 +14,11 @@ const vehicleData = [
 ];
 
 //routes
+app.get('/', (req, res) => {
+  res.json('Welcome to Vehicle movement app API');
+});
+
+//vehicle API
 app.get('/api/vehicle', (req, res) => {
   res.json(vehicleData);
 });
